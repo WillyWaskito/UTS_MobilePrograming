@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Tebak Angka</string>
+
+    <!-- Menu -->
+    <string name="top_label">QUIZ — TANTANG DIRIMU</string>
+    <string name="menu_title">Quiz Tebak Angka</string>
+    <string name="menu_subtitle">Tebak angka rahasia dari 0 sampai 100 dan kumpulkan skor sebanyak mungkin.</string>
+    <string name="btn_start">▶   Mulai Game</string>
+    <string name="btn_about">ⓘ   Tentang Aplikasi</string>
+    <!-- Catatan: teks tidak boleh diawali tanda tanya, karena AAPT menganggapnya referensi atribut tema. -->
+    <string name="btn_help">❓   Bantuan</string>
+    <string name="best_score_none">Skor terbaik: belum ada</string>
+    <string name="best_score_format">🏆 Skor terbaik: %1$d</string>
+
+    <!-- Game -->
+    <string name="label_score">SKOR SAAT INI</string>
+    <string name="label_attempts">JUMLAH TEBAKAN</string>
+    <string name="game_question">Angka berapa yang kamu pilih?</string>
+    <string name="game_range_default">Masukkan angka bulat antara 0–100.</string>
+    <string name="game_range_format">Rentang saat ini: %1$d–%2$d</string>
+    <string name="hint_input">Contoh: 50</string>
+    <string name="btn_guess">➤   Tebak Angka</string>
+    <string name="btn_restart">↻   Mulai Ulang</string>
+    <string name="btn_home">⌂   Kembali ke Menu</string>
+    <string name="footer">Dibuat untuk latihan logika — Versi 1.0</string>
+
+    <!-- Feedback -->
+    <string name="feedback_start">Semangat! Setiap tebakan yang salah mengurangi skor 10 poin.</string>
+    <string name="feedback_too_low">Belum tepat! Terlalu kecil. Coba angka yang lebih besar!\nSkor berkurang 10 poin.</string>
+    <string name="feedback_too_high">Belum tepat! Terlalu besar. Coba angka yang lebih kecil!\nSkor berkurang 10 poin.</string>
+    <string name="feedback_win_format">🎉 Tebakan benar! Angka rahasianya %1$d. Skor akhir kamu: %2$d.</string>
+    <string name="feedback_lose_format">Game over! Skor kamu 0.\nAngka rahasia adalah %1$d.</string>
+    <string name="feedback_finished">Permainan sudah selesai. Mulai game baru untuk bermain lagi.</string>
+
+    <!-- Validasi -->
+    <string name="error_empty">Masukkan angka terlebih dahulu</string>
+    <string name="error_range">Angka harus antara 0 dan 100</string>
+
+    <!-- Dialog -->
+    <string name="dialog_win_title">Hebat, tebakanmu benar! 🎉</string>
+    <string name="dialog_win_message_format">Angka rahasia: %1$d\nSkor akhir: %2$d\nJumlah tebakan: %3$d</string>
+    <string name="dialog_win_record">\n\n🏆 Skor terbaik baru!</string>
+    <string name="dialog_lose_title">Game Over</string>
+    <string name="dialog_lose_message_format">Skor kamu sudah 0.\nAngka rahasia adalah %1$d.</string>
+    <string name="dialog_play_again">Main Lagi</string>
+    <string name="dialog_back_to_menu">Kembali ke Menu</string>
+    <string name="dialog_restart_title">Mulai game baru?</string>
+    <string name="dialog_restart_message">Skor dan angka rahasia saat ini akan diatur ulang.</string>
+    <string name="dialog_restart_yes">Ya, Mulai</string>
+    <string name="dialog_cancel">Batal</string>
+    <string name="dialog_leave_title">Kembali ke menu?</string>
+    <string name="dialog_leave_message">Permainan yang sedang berjalan akan dihentikan.</string>
+    <string name="dialog_leave_yes">Ya, Kembali</string>
+
+    <string name="about_title">Tentang Quiz Tebak Angka</string>
+    <string name="about_message">Quiz Tebak Angka — Versi 1.0\n\nAplikasi sederhana untuk melatih logika dan ketelitian. Aplikasi memilih angka acak dari 0 sampai 100. Skor awal adalah 100 dan setiap tebakan salah mengurangi 10 poin.\n\nTugas UTS — 215314010</string>
+    <string name="about_ok">Mengerti</string>
+    <string name="help_title">Cara Bermain</string>
+    <string name="help_message">1. Tekan Mulai Game.\n\n2. Masukkan angka bulat dari 0 sampai 100.\n\n3. Tekan Tebak Angka.\n\n4. Jika tebakan terlalu kecil atau besar, ikuti petunjuk di layar.\n\n5. Skor awal 100. Setiap tebakan salah mengurangi 10 poin.\n\n6. Tebak dengan benar sebelum skor mencapai 0!</string>
+    <string name="help_ok">Siap Bermain</string>
+</resources>
